@@ -1,6 +1,6 @@
 //<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
-const axios = require('axios');
+//const axios = require('axios');
 
     const start = async function(){
     const res = axios.get('https://httpbin.org/get', { params: { answer: 42 } });
