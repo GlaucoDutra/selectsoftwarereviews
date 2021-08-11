@@ -11,7 +11,7 @@
     res.data; // { args: { answer: 42 }, ... }
     res.data instanceof Object;
 
-    const data = await axios.get("https://geo.ipify.org/api/v1?apiKey=at_Lopib8LAAsXDwjxnOOLZinmg9N69w").then(res => res.data);
+    const data = await axios.get("https://geo.ipify.org/api/v1?apiKey=at_fuOM3vjAHybI2FiiglQUbOEOlGWTr").then(res => res.data);
     var old = JSON.stringify(data).replace(/false/g, '"false"');
     var newdata = JSON.parse(old);
     //console.log(newdata)
